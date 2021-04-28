@@ -1,0 +1,21 @@
+{
+    "name": "space-smells",
+    "displayName": "Space Smells",
+    "description": "A dark theme based on the colors from popular space vector art",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Space Smells",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Space Smells-color-theme.json"
+            }
+        ]
+    }
+}
