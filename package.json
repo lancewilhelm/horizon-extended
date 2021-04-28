@@ -3,11 +3,29 @@
     "displayName": "Horizon Extended",
     "description": "A dark theme based on the Horizon theme. This provides some much need additions included semantic highlighting.",
     "version": "0.0.1",
+    "publisher": "lancewilhelm",
     "engines": {
         "vscode": "^1.55.0"
     },
+    "icon": "logo.png",
+    "author": {
+        "name": "Lance Wilhelm",
+        "email": "lance.wilhelm@gmail.com",
+        "url": "https://lancewilhelm.com"
+    },
+    "repository": {
+        "url": "https://github.com/PlanetaryMotion/horizon-extended",
+        "type": "git"
+    },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark",
+        "horizon",
+        "extended",
+        "warm"
     ],
     "contributes": {
         "themes": [
