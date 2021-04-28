@@ -1,7 +1,7 @@
 {
-    "name": "space-smells",
-    "displayName": "Space Smells",
-    "description": "A dark theme based on the colors from popular space vector art",
+    "name": "horizon-extended",
+    "displayName": "Horizon Extended",
+    "description": "A dark theme based on the Horizon theme. This provides some much need additions included semantic highlighting.",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.55.0"
@@ -12,9 +12,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Space Smells",
+                "label": "Horizon Extended",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Space Smells-color-theme.json"
+                "path": "./themes/Horizon Extended-color-theme.json"
             }
         ]
     }
