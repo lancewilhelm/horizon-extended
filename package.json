@@ -15,6 +15,11 @@
                 "label": "Horizon Extended",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Horizon Extended-color-theme.json"
+            },
+            {
+                "label": "Horizon Extended Light",
+                "uiTheme": "vs",
+                "path": "./themes/Horizon Extended Light-color-theme.json"
             }
         ]
     }
