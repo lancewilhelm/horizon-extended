@@ -13,3 +13,8 @@ All notable changes to the "horizon-extended" extension will be documented in th
 ## [0.1.1]
 
 - Fixed backgrounds of some form elements on the light theme.
+
+## [0.1.2]
+
+- Fixed terminal foreground. Lightened some active line backgrounds and highlighting issues. Added some more jargon to the readme.
+  
