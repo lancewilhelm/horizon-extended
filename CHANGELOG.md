@@ -2,6 +2,10 @@
 
 All notable changes to the "horizon-extended" extension will be documented in this file.
 
+## [0.1.4]
+
+- Status bar hover fixes.
+
 ## [0.1.3]
 
 - Updated Readme.
