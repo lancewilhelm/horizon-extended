@@ -2,7 +2,7 @@
     "name": "horizon-extended",
     "displayName": "Horizon Extended Theme",
     "description": "A dark theme based on the Horizon theme. This provides some much need additions included semantic highlighting.",
-    "version": "0.1.5",
+    "version": "0.1.7",
     "publisher": "lancewilhelm",
     "engines": {
         "vscode": "^1.55.0"

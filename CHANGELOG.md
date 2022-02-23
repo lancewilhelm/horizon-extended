@@ -2,6 +2,10 @@
 
 All notable changes to the "horizon-extended" extension will be documented in this file.
 
+## [0.1.6]
+
+- Added menu selection highlighting in response to issue #2. Also added GNUv3.
+
 ## [0.1.5]
 
 - More light theme tinkering.
