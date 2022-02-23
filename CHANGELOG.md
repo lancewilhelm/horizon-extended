@@ -2,6 +2,10 @@
 
 All notable changes to the "horizon-extended" extension will be documented in this file.
 
+## [0.1.7]
+
+- Fixed the ignored git file foreground color so they are actually visible. Response to issue #4.
+
 ## [0.1.6]
 
 - Added menu selection highlighting in response to issue #2. Also added GNUv3.
