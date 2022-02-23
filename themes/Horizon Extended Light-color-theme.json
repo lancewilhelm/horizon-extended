@@ -138,7 +138,7 @@
         "gitDecoration.modifiedResourceForeground": "#c98c1a",
         "gitDecoration.deletedResourceForeground": "#F43E5C",
         "gitDecoration.untrackedResourceForeground": "#20bd83",
-        "gitDecoration.ignoredResourceForeground": "#e4e6e74D",
+        "gitDecoration.ignoredResourceForeground": "#969696",
         "breadcrumbPicker.background": "#e4e6e7"
     },
 	"tokenColors": [
