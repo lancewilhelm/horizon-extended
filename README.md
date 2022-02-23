@@ -4,7 +4,7 @@ An extension of the [Horizon theme by jolaleye](https://marketplace.visualstudio
 
 ![jsx screenshot](./jsxshot.png)
 ![python screenshot](./pythonshot.png)
-![light jsx screenshot](./lightjsx.png)]
+![light jsx screenshot](./lightjsx.png)
 
 ### A neccessary update to a great theme
 
