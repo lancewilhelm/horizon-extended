@@ -2,6 +2,12 @@
 
 All notable changes to the "horizon-extended" extension will be documented in this file.
 
+## [0.2.0]
+
+- Added a new dark theme variant which removes the italics from the editor. This is in response to issue #8.
+- Slightly modified the selection colors to make selections more visible.
+- Added `string.unquoted` to the list of scopes that are colored green in the dark themes.
+
 ## [0.1.7]
 
 - Fixed the ignored git file foreground color so they are actually visible. Response to issue #4.

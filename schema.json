@@ -1,0 +1,34 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "colors": {
+            "type": "object",
+            "patternProperties": {
+                ".+": {
+                    "type": "string",
+                    "format": "color"
+                }
+            }
+        },
+        "tokenColors": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "settings": {
+                        "type": "object",
+                        "properties": {
+                            "foreground": {
+                                "type": "string",
+                                "format": "color"
+                            },
+                            "background": {
+                                "type": "string",
+                                "format": "color"
+                            }
+                    }
+            }
+        }
+    }
+}

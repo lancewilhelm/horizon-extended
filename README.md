@@ -12,6 +12,8 @@ I love the color themes and warm tone of Horizon, but it was missing a couple th
 
 Recommended Font: Fira Code w/ ligatures enabled
 
-I only have the main dark theme and a light theme that is based primarily off of the highlighting colors from the dark theme. The light theme struggles with bracket colorizer 2 as the brackets are hard to see. Some customization may be needed for bracket colors. Also, the light theme is VERY colorful. If you are not ready to taste the rainbow then stay away from the light theme. A better readme and more features/themes will come as the theme is used and tested. 
+There is only the main theme and a light theme that is based primarily off of the highlighting colors from the dark theme. The light theme is an attempt at a light theme, but honestly the colors from the dark theme do not lend themselves to the light theme. This may be addressed in a future update.
 
 **Enjoy!**
+
+**This theme is sparsely maintained. I will try to address issues as they come up, but I am not actively developing this theme.*

@@ -2,7 +2,7 @@
     "name": "horizon-extended",
     "displayName": "Horizon Extended Theme",
     "description": "A dark theme based on the Horizon theme. This provides some much need additions included semantic highlighting.",
-    "version": "0.1.7",
+    "version": "0.2.0",
     "publisher": "lancewilhelm",
     "engines": {
         "vscode": "^1.55.0"
@@ -14,7 +14,7 @@
         "url": "https://lancewilhelm.com"
     },
     "repository": {
-        "url": "https://github.com/PlanetaryMotion/horizon-extended",
+        "url": "https://github.com/lancewilhelm/horizon-extended",
         "type": "git"
     },
     "categories": [
@@ -32,12 +32,17 @@
             {
                 "label": "Horizon Extended",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Horizon Extended-color-theme.json"
+                "path": "./themes/original.json"
             },
             {
                 "label": "Horizon Extended Light",
                 "uiTheme": "vs",
-                "path": "./themes/Horizon Extended Light-color-theme.json"
+                "path": "./themes/light.json"
+            },
+            {
+                "label": "Horizon Extended - No Italics",
+                "uiTheme": "vs-dark",
+                "path": "./themes/original_no_italics.json"
             }
         ]
     }
