@@ -1,44 +1,43 @@
-import { Component, OnInit, OnDestroy } from '@angular/core'
-import { Person, SearchService } from '../shared'
-import { ActivatedRoute } from '@angular/router'
-import { Subscription } from 'rxjs'
+import fs from "fs";
 
-@Component({
-  selector: 'app-search',
-  templateUrl: './search.component.html',
-  styleUrls: ['./search.component.css']
-})
-export class SearchComponent implements OnInit, OnDestroy {
-  query: string
-  searchResults: Array<Person>
-  sub: Subscription
+// Example interface
+interface IExample {
+  name: string;
+  age: number;
+}
 
-  constructor(
-    private searchService: SearchService,
-    private route: ActivatedRoute
-  ) {}
+//TODO: Add more types
+// Example type
+type Example = {
+  name: string;
+  age: number;
+};
 
-  ngOnInit() {
-    this.sub = this.route.params.subscribe(params => {
-      if (params['term']) {
-        this.query = decodeURIComponent(params['term'])
-        this.search()
-      }
-    })
-  }
+// simple comment
+/** @param {string} a block comment */
+type Prop = { a: boolean; b: null; c: string };
+enum Enum {
+  zed = "zed",
+}
+const number = 1;
+const string = "strig";
+const boolean = true;
+const object = { id: `${string}_id1` };
+const regex = /(L^\d]string).*/i;
 
-  search(): void {
-    this.searchService.search(this.query).subscribe(
-      (data: any) => {
-        this.searchResults = data
-      },
-      error => console.log(error)
-    )
-  }
+export default function App<T extends Prop = object>(p: T): any {
+  if (p == true) return null;
+  return (
+    <div className="class1" style={{ text: 1 }}>
+      hello world {p.name}!
+    </div>
+  );
+}
 
-  ngOnDestroy() {
-    if (this.sub) {
-      this.sub.unsubscribe()
-    }
+class Test {
+  private readonly name: string;
+  @guard({ description: "Gets name" })
+  public getName() {
+    return this.name;
   }
 }

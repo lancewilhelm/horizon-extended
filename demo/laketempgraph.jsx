@@ -15,7 +15,6 @@ export default function LakeTempGraph() {
   const [period, setPeriod] = useState("24h"); // Store the time period requested
 
   // Define variables for the graph
-  const w_graph = 250;
   const h_graph = 100;
   const margin = { top: 10, right: 10, bottom: 30, left: 30 };
 

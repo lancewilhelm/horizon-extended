@@ -2,6 +2,14 @@
 
 All notable changes to the "horizon-extended" extension will be documented in this file.
 
+## [1.0.0]
+
+I think about time to make this thing official as 1.0.0.
+
+- Added a new dark theme variant, "neo", which uses minimal borders to separate elements rather than different background colors. This also has a more consistent color palette throughout the theme.
+- Modified the light theme to be closer to the Nvim theme which is easier on the eyes.
+- Preserved original themes as "original".
+
 ## [0.2.0]
 
 - Added a new dark theme variant which removes the italics from the editor. This is in response to issue #8.
