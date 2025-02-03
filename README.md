@@ -1,5 +1,4 @@
 <img src="./assets/social_teaser.png" alt="teaser stack"/>
-</h3>
 
 <p align="center">
 A vibrant dark theme for VS Code
