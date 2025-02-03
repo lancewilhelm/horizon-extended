@@ -2,6 +2,10 @@
 
 All notable changes to the "horizon-extended" extension will be documented in this file.
 
+## [1.1.0]
+
+- Brought back the orignal light theme as the standard light theme.
+
 ## [1.0.0]
 
 I think about time to make this thing official as 1.0.0.

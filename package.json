@@ -2,7 +2,7 @@
     "name": "horizon-extended",
     "displayName": "Horizon Extended Theme",
     "description": "A dark theme based on the Horizon theme. This provides some much need additions included semantic highlighting.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "lancewilhelm",
     "engines": {
         "vscode": "^1.55.0"
@@ -37,6 +37,11 @@
                 "path": "./themes/neo.json"
             },
             {
+                "label": "Horizon Extended - Light Neo",
+                "uiTheme": "vs",
+                "path": "./themes/light_neo.json"
+            },
+            {
                 "label": "Horizon Extended - Original",
                 "uiTheme": "vs-dark",
                 "path": "./themes/original.json"
@@ -47,9 +52,9 @@
                 "path": "./themes/original_no_italics.json"
             },
             {
-                "label": "Horizon Extended - Light",
+                "label": "Horizon Extended - Light Original",
                 "uiTheme": "vs",
-                "path": "./themes/light.json"
+                "path": "./themes/light_original.json"
             }
         ]
     }
