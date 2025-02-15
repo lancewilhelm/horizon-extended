@@ -2,6 +2,10 @@
 
 All notable changes to the "horizon-extended" extension will be documented in this file.
 
+## [1.1.1]
+
+- Adding a border under the tabs in the neo theme.
+
 ## [1.1.0]
 
 - Brought back the orignal light theme as the standard light theme.
